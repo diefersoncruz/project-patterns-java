@@ -1,4 +1,4 @@
-package classes;
+package shapes;
 
 import interfaces.Shape;
 

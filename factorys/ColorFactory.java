@@ -1,8 +1,7 @@
 package factorys;
 
-import interfaces.Color;
-import interfaces.Shape;
-import classes.*;
+import colors.*;
+import interfaces.*;
 
 // Implementação da Factory (interfaces.Color)
 public class ColorFactory extends AbstractFactory {

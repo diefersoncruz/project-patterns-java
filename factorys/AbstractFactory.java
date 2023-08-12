@@ -1,7 +1,6 @@
 package factorys;
 
-import interfaces.Color;
-import interfaces.Shape;
+import interfaces.*;
 
 // Interface do Abstract Factory
 public abstract class AbstractFactory {

@@ -1,4 +1,4 @@
-package classes;
+package colors;
 
 import interfaces.Color;
 

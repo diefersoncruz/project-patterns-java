@@ -1,8 +1,7 @@
 package factorys;
 
-import interfaces.Color;
-import interfaces.Shape;
-import classes.*;
+import shapes.*;
+import interfaces.*;
 
 // Implementação da Factory (interfaces.Shape)
 public class ShapeFactory extends AbstractFactory {
@@ -16,7 +15,7 @@ public class ShapeFactory extends AbstractFactory {
             return null;
         }
         if(shapeType.equalsIgnoreCase("CIRCLE")){
-            return new Circle();
+            return new Rectangle.Circle();
         } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
             return new Rectangle();
         } else if(shapeType.equalsIgnoreCase("SQUARE")){
